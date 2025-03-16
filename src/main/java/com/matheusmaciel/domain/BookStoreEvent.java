@@ -11,5 +11,6 @@ import lombok.NoArgsConstructor;
 public class BookStoreEvent {
 
     private Integer bookStoreEventId;
+    private BookStoreEventType bookStoreEventType;
     private Book book;
 }
